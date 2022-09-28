@@ -37,6 +37,13 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     padding: 12px;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;    
+  }
+
+  .grid-explicita {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(5,auto);
+    grid-auto-flow: column;
   }

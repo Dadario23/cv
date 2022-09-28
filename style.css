@@ -1,10 +1,14 @@
 html {
-  background-color: antiquewhite;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
   }
   *, *:before, *:after {
     box-sizing: inherit;
+  }
+
+  body {    
+    background-color: antiquewhite;
+    
   }
 
   ul {
@@ -19,4 +23,12 @@ html {
 
   p{
     padding: 0px;
+  }
+
+  .container {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 12px;
+    width: 60%;
+    margin: 0 auto;
   }

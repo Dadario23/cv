@@ -11,3 +11,12 @@ html {
     padding: 0px;
     list-style-type: none;
   }
+
+  legend {
+    font-weight: bold;
+    padding: 0px;
+  }
+
+  p{
+    padding: 0px;
+  }

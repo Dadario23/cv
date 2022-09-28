@@ -1,11 +1,13 @@
 html {
+  background-color: antiquewhite;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
   }
   *, *:before, *:after {
     box-sizing: inherit;
   }
 
-  li {
-    list-style-type: none
-
+  ul {
+    padding: 0px;
+    list-style-type: none;
   }

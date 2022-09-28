@@ -7,8 +7,14 @@ html {
   }
 
   body {    
-    background-color: antiquewhite;
+    background-color: white;
     
+  }
+  h1 {
+    margin: 1px;
+  }
+  h4 {
+    margin: 0px;
   }
 
   ul {
@@ -26,9 +32,11 @@ html {
   }
 
   .container {
-    background-color: whitesmoke;
-    border: 1px solid black;
+    background-image: url("https://img.freepik.com/vector-gratis/diseno-fondo-abstracto-blanco_23-2148825582.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 12px;
     width: 60%;
-    margin: 0 auto;
+    margin: 0 auto;    
   }
